@@ -14,7 +14,7 @@ builds:
   - id: linux-amd64
     hooks:
       pre:
-       - fe.sh
+       - ./fe.sh
     main: src/
     binary: n9e
     env:
