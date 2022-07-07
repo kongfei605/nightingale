@@ -64,10 +64,10 @@ dockers:
 
 docker_manifests:
 
-  - name_template: flashcatcloud/nightingale:{{ .Tag }}
+  - name_template: flashcatcloud/nightingale:{{ .Version }}
     image_templates:
-      - flashcatcloud/nightingale:{{ .Tag }}-amd64
+      - flashcatcloud/nightingale:{{ .Version }}-amd64
 
   - name_template: flashcatcloud/nightingale:latest
     image_templates:
-      - flashcatcloud/nightingale:{{ .Tag }}-amd64
+      - flashcatcloud/nightingale:{{ .Version }}-amd64
