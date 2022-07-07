@@ -50,7 +50,7 @@ release:
 
 dockers:
   - image_templates:
-      - flashcatcloud/nightingale:{{ .Tag }}-amd64
+      - flashcatcloud/nightingale:{{ .Version }}-amd64
     goos: linux
     goarch: amd64
     ids:
